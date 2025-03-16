@@ -25,12 +25,9 @@ export default function App() {
         setConvertedamount(amount*currencyInfo[to]);
     }
   return (
-      <div
-          className="w-full h-screen box flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
-          style={{
-              backgroundImage: `url('${backgroundImage}')`,
-          }}
-      >
+<div
+    className="w-full h-screen flex justify-center items-center bg-cover bg-center bg-no-repeat"
+  >
           <div className="w-full">
               <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                   <form
